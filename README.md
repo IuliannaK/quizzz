@@ -1,6 +1,6 @@
 # Quizzz
 
-- Это простой [квиз](iuliannak.github.io/quizzz/)
+- Это простой [квиз](https://iuliannak.github.io/quizzz/)
 - Написан с использование чистого JS
 
 
