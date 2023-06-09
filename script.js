@@ -1,34 +1,28 @@
-const button = document.querySelector(".btn");
-button.addEventListener("click", result);
+const button = document.querySelector('.btn');
+button.addEventListener('click', result);
 
-const par = document.querySelector("#show");
+const par = document.querySelector('#show');
 
+function result(e) {
+  e.preventDefault();
 
-function result (e) {
-    e.preventDefault();
-    
-    let points = 0;
+  let points = 0;
 
-    if(document.querySelector("#answer1").checked) {
-        points++;
-    }
+  if (document.querySelector('#answer1').checked) {
+    points++;
+  }
 
-    if (document.querySelector("#answer2").checked) {
-        points++;
-        
-    }
+  if (document.querySelector('#answer2').checked) {
+    points++;
+  }
 
-    if (document.querySelector("#answer3").checked) {
-        points++;
-    }
+  if (document.querySelector('#answer3').checked) {
+    points++;
+  }
 
-    if (document.querySelector("#answer4").checked) {
-        points++;
-    }
+  if (document.querySelector('#answer4').checked) {
+    points++;
+  }
 
-    par.textContent = "Ваши баллы: " + points
-        
-    }
-
-   
-    
+  par.textContent = 'Ваши баллы: ' + points;
+}
