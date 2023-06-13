@@ -50,6 +50,60 @@ label {
   font-weight: bold;
 }
 
+@media all and (max-width: 800px) {
+    form {
+        display: flex;
+        flex-wrap: wrap;
+        width:80%;
+        padding:100px;
+    }
+
+    label{
+        font-size: 10px;
+    }
+
+    .question{
+        padding:10px;
+    }
+
+    .question_text{
+        font-size:10px;
+        margin-left:10px;
+    }
+
+input{
+    margin-left: 10px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    form {
+        display: flex;
+        flex-direction:column ;
+        flex-wrap: wrap;
+        width:80%;
+        padding:10px;
+        font-size:10px;
+    }
+
+    label{
+        font-size: 10px;
+    }
+
+    .question{
+        padding:5px;
+    }
+
+    .question_text{
+        font-size:5px;
+        margin-left:10px;
+    }
+
+input{
+    margin-left: 20px;
+    }
+}
+
 input{
     margin-left: 30px;
 
