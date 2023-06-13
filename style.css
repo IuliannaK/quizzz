@@ -1,44 +1,43 @@
 body {
-    background-image: linear-gradient(315deg, #b8c6db,#c78ce0);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #c78ce0;
-    height: 100vh;
+  background-image: linear-gradient(315deg, #b8c6db, #c78ce0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c78ce0;
+  height: 100vh;
 }
 
 form {
-    background-color: #fff;
-    display: flex;
-    flex-wrap: wrap;
-    width:600px;
-    padding:100px;
-    font-family: 'Poppins', sans-serif;
-
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  padding: 100px;
+  font-family: 'Poppins', sans-serif;
 }
 
-label {
-    font-size: 16px;
-    padding: 10px;
-    margin: 10px;
-    font-weight: bold;
+.question__text {
+  font-size: 16px;
+  padding: 10px;
+  margin: 10px;
+  font-weight: bold;
 }
 
 .question {
-    padding:30px;
+  padding: 30px;
 }
 
 .btn {
-    background-color: #af58d4;
-    color:#fff;
-    width:100%;
-    border: 1px solid black;
-    padding: 15px;
-    font-size: 15px;
-    margin-top: 10px;
+  background-color: #af58d4;
+  color: #fff;
+  width: 100%;
+  border: 1px solid black;
+  padding: 15px;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
 #show {
-    margin:auto;
-    margin-top: 10px;
+  margin: auto;
+  margin-top: 10px;
 }
